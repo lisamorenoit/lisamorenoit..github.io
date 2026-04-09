@@ -1,4 +1,3 @@
-# lisamorenoit..github.io
 
 # 🛡️ Lisa Marie Moreno | SOC Analyst
 > Blue Team Operations | Threat Detection | Incident Response
