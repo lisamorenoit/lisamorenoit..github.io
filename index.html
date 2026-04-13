@@ -405,63 +405,56 @@ footer{border-top:1px solid var(--border);padding:28px 0 100px;display:flex;just
 <!-- LABS -->
 <section id="labs" class="fade-in">
   <div class="section-label" data-i18n="s_labs_label">Laboratorios</div>
-  <h2 class="section-title" data-i18n="s_labs_title">Proyectos <em>prácticos</em></h2>
+  <h2 class="section-title" data-i18n="s_labs_title">Proyectos <em>reales y prácticos</em></h2>
   <div class="labs-grid">
-    <div class="lab-card" style="--accent:#ff4c6a">
-      <div class="lab-num">LAB_01</div>
-      <div class="lab-icon" style="background:var(--red-dim)">🐒</div>
-      <div class="lab-title">Infection Monkey</div>
-      <div class="lab-desc" data-i18n="lab1_desc">Simulación de movimiento lateral y propagación de malware en red interna. Análisis de vectores de ataque y gaps de segmentación.</div>
-      <div class="lab-tags">
-        <span class="badge br lab-tag">Lateral Movement</span>
-        <span class="badge ba lab-tag">Network Segmentation</span>
-        <span class="badge bb lab-tag">MITRE T1021</span>
-      </div>
-      <div class="lab-meta"><span class="lab-date">2024</span><a href="#" class="lab-link" data-i18n="lab_writeup">writeup →</a></div>
-    </div>
+    
     <div class="lab-card" style="--accent:#ffb84d">
-      <div class="lab-num">LAB_02</div>
-      <div class="lab-icon" style="background:var(--amber-dim)">🔍</div>
-      <div class="lab-title">DNSTwist — Typosquatting</div>
-      <div class="lab-desc" data-i18n="lab2_desc">Detección de dominios typosquatting. Análisis de variaciones usadas en phishing: homoglyphs, transposición de caracteres y bitsquatting.</div>
+      <div class="lab-num">RESEARCH_01</div>
+      <div class="lab-icon" style="background:var(--amber-dim)">🛡️</div>
+      <div class="lab-title">Análisis Phishing: Amazon ES</div>
+      <div class="lab-desc">Disección de un ataque real que evadió SPF/DKIM/DMARC. Análisis de homógrafos y evasión de filtros mediante barras invertidas.</div>
       <div class="lab-tags">
-        <span class="badge ba lab-tag">OSINT</span>
-        <span class="badge bg lab-tag">Phishing Detection</span>
-        <span class="badge bb lab-tag">DNS Analysis</span>
+        <span class="badge ba lab-tag">Threat Analysis</span>
+        <span class="badge bg lab-tag">Evasion Techniques</span>
+        <span class="badge bb lab-tag">Blue Team</span>
       </div>
-      <div class="lab-meta"><span class="lab-date">2024</span><a href="#" class="lab-link" data-i18n="lab_writeup">writeup →</a></div>
+      <div class="lab-meta">
+        <span class="lab-date">2026</span>
+        <a href="https://github.com/lisamorenoit/Real-Phishing-Analysis-Amazon-ES" target="_blank" class="lab-link">ver repo →</a>
+      </div>
     </div>
+
     <div class="lab-card" style="--accent:#5b9cf6">
-      <div class="lab-num">LAB_03</div>
+      <div class="lab-num">LAB_01</div>
       <div class="lab-icon" style="background:var(--blue-dim)">🎣</div>
-      <div class="lab-title">Gophish + Ngrok</div>
-      <div class="lab-desc" data-i18n="lab3_desc">Campaña de phishing controlada con Gophish via Ngrok. Análisis de métricas de apertura, clicks y credential harvesting en sandbox.</div>
+      <div class="lab-title">Simulación Gophish + Ngrok</div>
+      <div class="lab-desc">Despliegue de campaña de phishing controlada. Configuración de túneles HTTPS y recolección de métricas en entorno de laboratorio.</div>
       <div class="lab-tags">
         <span class="badge bb lab-tag">Phishing Simulation</span>
         <span class="badge bp lab-tag">Social Engineering</span>
-        <span class="badge br lab-tag">Credential Harvesting</span>
+        <span class="badge br lab-tag">Gophish</span>
       </div>
-      <div class="lab-meta"><span class="lab-date">2024</span><a href="#" class="lab-link" data-i18n="lab_writeup">writeup →</a></div>
+      <div class="lab-meta">
+        <span class="lab-date">2026</span>
+        <a href="https://github.com/lisamorenoit/Lab-Phish-Campaing" target="_blank" class="lab-link">ver repo →</a>
+      </div>
     </div>
-    <div class="lab-card" style="--accent:#a78bfa">
-      <div class="lab-num">LAB_04</div>
+
+    <div class="lab-card" style="--accent:#a78bfa; opacity:.8">
+      <div class="lab-num">LAB_02</div>
       <div class="lab-icon" style="background:var(--purple-dim)">🔐</div>
-      <div class="lab-title">SSH &amp; Ransomware Analysis</div>
-      <div class="lab-desc" data-i18n="lab4_desc">Análisis de ataques SSH y comportamiento de ransomware en entorno controlado. Extracción de IOCs y procedimientos de respuesta a incidentes.</div>
+      <div class="lab-title">SSH Ransomware Analysis</div>
+      <div class="lab-desc">Investigación de ataques de fuerza bruta SSH y ejecución de ransomware en sandbox. Próximamente el reporte técnico.</div>
       <div class="lab-tags">
-        <span class="badge bp lab-tag">SSH Exploitation</span>
-        <span class="badge br lab-tag">Ransomware</span>
-        <span class="badge bg lab-tag">IOC Extraction</span>
+        <span class="badge bp lab-tag">Ransomware</span>
+        <span class="badge br lab-tag">Forensics</span>
       </div>
-      <div class="lab-meta"><span class="lab-date">2025</span><a href="#" class="lab-link" data-i18n="lab_writeup">writeup →</a></div>
+      <div class="lab-meta">
+        <span class="lab-date">En progreso</span>
+        <span style="font-size:11px;color:var(--text3)">···</span>
+      </div>
     </div>
-    <div class="lab-card" style="--accent:#4a5568;opacity:.55;cursor:default">
-      <div class="lab-num">LAB_05</div>
-      <div class="lab-icon" style="background:rgba(74,85,104,.15);font-size:20px">+</div>
-      <div class="lab-title" data-i18n="lab_soon">Próximamente</div>
-      <div class="lab-desc" data-i18n="lab_soon_desc">Nuevo laboratorio en desarrollo.</div>
-      <div class="lab-meta"><span class="lab-date" data-i18n="lab_soon_date">En progreso</span><span style="font-size:11px;color:var(--text3)">···</span></div>
-    </div>
+
   </div>
 </section>
 
